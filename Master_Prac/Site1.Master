@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Master_Prac.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="display:flex;align-items:center;justify-content:center;flex-direction:row;background-color:darkblue;color:white;border-radius:1rem;">
+            <h1>Header</h1>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         <div style="display:flex;align-items:center;justify-content:center;flex-direction:row;background-color:indigo;color:white;border-radius:1rem;">
+            <h1>Footer</h1>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage1.master.cs" Inherits="Master_Prac.NestedMasterPage1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+            
+    <asp:FormView ID="FormView1" runat="server">
+        <h1>Chomu</h1>
+    </asp:FormView>
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+       
+   
+</asp:Content>
